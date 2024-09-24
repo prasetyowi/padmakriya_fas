@@ -1,0 +1,33 @@
+.outletrows {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 16px;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+}
+
+img:hover { 
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+  cursor: pointer;
+}

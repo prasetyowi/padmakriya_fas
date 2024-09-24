@@ -1,0 +1,44 @@
+.ups
+{
+    position: relative;
+    float: left;
+}
+
+a.ups_delimg
+{
+    box-shadow: none;
+    position: absolute;
+    right: 7px;
+    top: -5px;
+    margin-top: 4px;
+    opacity: 0;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.ups:hover a.ups_delimg
+{
+    opacity: 1;
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+}
+
+.ups:after  
+{
+    content: '';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0px;
+    z-index: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.ups:hover:after
+{
+    opacity: 1;
+}

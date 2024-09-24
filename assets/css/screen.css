@@ -1,0 +1,7 @@
+.no-print{
+}
+
+.only-print{
+	
+	display:none !important;
+}
